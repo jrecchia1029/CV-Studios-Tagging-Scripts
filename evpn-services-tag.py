@@ -1,6 +1,5 @@
 import argparse
 import csv
-import json
 from getpass import getpass
 import random
 import requests
