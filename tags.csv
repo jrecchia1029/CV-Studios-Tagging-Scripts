@@ -1,0 +1,3 @@
+hostname,node_id,DC,DC-Pod,Leaf-Domain
+DC1-LF07,7,DC1a,Pod-Z,5
+adobe-transit1,5,5,5,3

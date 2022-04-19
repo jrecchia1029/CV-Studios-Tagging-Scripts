@@ -1,0 +1,5 @@
+hostname,node_id,DC,DC-Pod,Leaf-Domain
+DC1-LF01a,1,Lindhurst,Pod1,1
+DC1-LF01b,2,Lindhurst,Pod1,1
+DC1-LF02a,3,Lindhurst,Pod1,2
+DC1-LF02b,4,Lindhurst,Pod1,2

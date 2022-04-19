@@ -1,0 +1,10 @@
+hostname,DC,DC-Pod,Role,node_id,Leaf-Domain,L2-Leaf-Domain,Super-Spine-Plane
+DC1-aLF1A,DC1,PodA,Leaf,1,1,,
+DC1-aLF1B,DC1,PodA,Leaf,2,1,,
+DC1-aLF2A,DC1,PodA,Leaf,3,2,,
+DC1-aSP1,DC1,PodA,Spine,1,,,
+DC1-aSP2,DC1,PodA,Spine,2,,,
+DC1-aL2LF01A,DC1,PodA,L2-Leaf,1,,1,
+DC1-bLF01A,DC1,PodA,Leaf,1,1,,
+DC1-bSP01,DC1,PodA,Spine,1,,,
+DC1-SS1,DC1,,Super-Spine,1,,,1
