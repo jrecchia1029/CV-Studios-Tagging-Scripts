@@ -213,7 +213,7 @@ def main():
     # api_token = "../cvaas_staging_token.txt"
     # cvp_ip = "10.20.30.186"
     # api_token = "../on_prem_token.txt"
-    workspace_id = "7687717"
+    # workspace_id = "7687717"
     
     # Read tag,values from csv file and put them in dictionary
     device_tags = {}
