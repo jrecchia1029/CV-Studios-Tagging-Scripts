@@ -296,13 +296,13 @@ def main():
     # Add network services tags
     for sn in device_tags.keys():
         if tag_action == "apply":
-            create_tag(cvp_client, workspace_id, "network_services", "L2")
-            apply_tag(cvp_client, workspace_id, "network_services", "L2", sn)
-            create_tag(cvp_client, workspace_id, "network_services", "L3")
-            apply_tag(cvp_client, workspace_id, "network_services", "L3", sn)
+            create_tag(cvp_client, workspace_id, "NetworkServices", "L2")
+            apply_tag(cvp_client, workspace_id, "NetworkServices", "L2", sn)
+            create_tag(cvp_client, workspace_id, "NetworkServices", "L3")
+            apply_tag(cvp_client, workspace_id, "NetworkServices", "L3", sn)
         elif tag_action == "remove":
-            remove_tag(cvp_client, workspace_id, "network_services", "L2", sn)
-            remove_tag(cvp_client, workspace_id, "network_services", "L3", sn)            
+            remove_tag(cvp_client, workspace_id, "NetworkServices", "L2", sn)
+            remove_tag(cvp_client, workspace_id, "NetworkServices", "L3", sn)            
 
 
 if __name__ == "__main__":
